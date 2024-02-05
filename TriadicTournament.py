@@ -44,6 +44,15 @@ Cycles = [Strategy1, Strategy2, Strategy3, Strategy4, Strategy5, Strategy6, Stra
 Strategies = [Strategy1, Strategy2, Strategy3, Strategy4, Strategy5, Strategy6, Strategy7, Random, Self_Adjusting_Random, TitforTat, Defector, Coworker, Cooperative, Stakanov]
 Tournament = [Sstrategy1, Sstrategy2, Sstrategy3, SRandom, Sself_Adjusting_Random, STitfortat, SDefector, SFixed]
 
+#robustness checks: select random subsets of strategies
+#random_strategies = random.sample(Strategies, 7)
+#random.shuffle(random_strategies)
+#random_Sstrategies = random.sample(Tournament, 4)
+#random.shuffle(random_Sstrategies)
+#Cycles = random_strategies
+#Strategies = random_strategies
+#Tournament = random_Sstrategies
+
 #body
 print("\n")
 for supervisor in Tournament:
